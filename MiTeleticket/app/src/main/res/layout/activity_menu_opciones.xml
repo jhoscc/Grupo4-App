@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOP"
+
+
+        android:id="@+id/butTop" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendario"
+        android:id="@+id/butCal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:id="@+id/butBus" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="Perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+        android:textSize="50dp"
+        android:layout_marginTop="45dp"/>
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perfil"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="90dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"/>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:paddingTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imagen1"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Ingrese codigo"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Ingrese password"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:inputType="textPassword"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/butIngresar" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear usuario "
+
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/butNuevo" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olvido su contraseña? "
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/butOlvidar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar con facebook "
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/butfb" />
+
+
+
+
+</LinearLayout>

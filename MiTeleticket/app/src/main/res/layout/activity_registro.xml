@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Nombres"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Apellidos"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="DNI"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp" />
+
+
+
+
+    <Button
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/butGuardar" />
+
+    <TextView
+        android:text="Error en el registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>
